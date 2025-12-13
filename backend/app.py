@@ -41,8 +41,8 @@ def search_google(query):
     url = "https://www.googleapis.com/customsearch/v1"
     params = {
         "q": query,
-        "key": "AIzaSyDodgcyKRxSmi3-m5EqW018qQP9TAWNz0Q",
-        "cx": "1605f465f7b514a56",
+        "key": "KeyHere",
+        "cx": "SearchEngineIDHere",
         "num": 5
     }
     response = requests.get(url, params=params)
