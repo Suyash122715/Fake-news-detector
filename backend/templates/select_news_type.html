@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Select News Type</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    button {
+      padding: 15px 30px;
+      margin: 10px;
+      border: none;
+      background-color: #007BFF;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Select News Type</h2>
+    <p>Please choose the type of news you want to verify:</p>
+    <button onclick="selectNewsType('local')">Local News</button>
+    <button onclick="selectNewsType('international')">International News</button>
+  </div>
+
+  <script>
+    function selectNewsType(type) {
+      localStorage.setItem('newsType', type);
+      window.location.href = "{{ url_for('input') }}?newsType=" + type;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How It Works | Fake News Detector</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .info-container {
+      background: #fff;
+      color: #333;
+      max-width: 800px;
+      padding: 40px 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 1s ease;
+      overflow-y: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: #2c5364;
+      margin-top: 25px;
+    }
+
+    p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #2c5364;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    a.back:hover {
+      background-color: #203a43;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="info-container">
+    <h2>🧠 How It Works</h2>
+    
+    <h3>What is Fake News?</h3>
+    <p>Fake news refers to misinformation or hoaxes spread via traditional news media or online social platforms. It can be created to mislead people, push political agendas, or attract clicks for profit.</p>
+
+    <h3>Why Detect Fake News?</h3>
+    <ul>
+      <li>Prevents spread of misinformation</li>
+      <li>Protects public opinion and democracy</li>
+      <li>Promotes media literacy and truth</li>
+    </ul>
+
+    <h3>How Does Our Detector Work?</h3>
+    <p>Our Fake News Detector uses machine learning to analyze news content and determine its authenticity based on various linguistic, statistical, and contextual features.</p>
+
+    <p>The process involves:</p>
+    <ul>
+      <li><strong>Data Collection:</strong> Trained on real and fake news datasets</li>
+      <li><strong>Text Preprocessing:</strong> Cleaning and converting news into analyzable format</li>
+      <li><strong>Model Prediction:</strong> A classifier (like Logistic Regression, SVM, or Deep Learning model) decides if news is real or fake</li>
+    </ul>
+
+    <p>This tool is designed to assist users in making informed decisions, but it is not a substitute for fact-checking from trusted sources.</p>
+
+    <a href="{{ url_for('home') }}" class="back">⬅ Back to Dashboard</a>
+  </div>
+</body>
+</html>
