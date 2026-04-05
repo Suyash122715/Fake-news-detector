@@ -1,0 +1,109 @@
+{
+  "InternationalNewsSources": [
+    {
+      "country": "United States",
+      "sources": [
+        "nytimes.com",
+        "washingtonpost.com",
+        "cnn.com",
+        "nbcnews.com",
+        "abcnews.go.com"
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "sources": [
+        "bbc.com",
+        "theguardian.com",
+        "telegraph.co.uk",
+        "independent.co.uk",
+        "dailymail.co.uk"
+      ]
+    },
+    {
+      "country": "Germany",
+      "sources": [
+        "dw.com",
+        "spiegel.de",
+        "faz.net",
+        "zeit.de",
+        "welt.de"
+      ]
+    },
+    {
+      "country": "France",
+      "sources": [
+        "lemonde.fr",
+        "lefigaro.fr",
+        "liberation.fr",
+        "france24.com"
+      ]
+    },
+    {
+      "country": "Australia",
+      "sources": [
+        "abc.net.au",
+        "theage.com.au",
+        "smh.com.au",
+        "news.com.au"
+      ]
+    },
+    {
+      "country": "Canada",
+      "sources": [
+        "cbc.ca",
+        "globalnews.ca",
+        "ctvnews.ca",
+        "theglobeandmail.com"
+      ]
+    },
+    {
+      "country": "China",
+      "sources": [
+        "xinhuanet.com",
+        "chinadaily.com.cn",
+        "globaltimes.cn"
+      ]
+    },
+    {
+      "country": "Japan",
+      "sources": [
+        "japantimes.co.jp",
+        "asahi.com",
+        "nhk.or.jp"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "sources": [
+        "globo.com",
+        "folha.uol.com.br",
+        "estadao.com.br"
+      ]
+    },
+    {
+      "country": "South Africa",
+      "sources": [
+        "news24.com",
+        "timeslive.co.za",
+        "iol.co.za"
+      ]
+    },
+    {
+      "country": "UAE",
+      "sources": [
+        "gulfnews.com",
+        "thenationalnews.com",
+        "khaleejtimes.com"
+      ]
+    },
+    {
+      "country": "Russia",
+      "sources": [
+        "rt.com",
+        "tass.com",
+        "themoscowtimes.com"
+      ]
+    }
+  ]
+}
